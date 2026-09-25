@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "datetime": 1790325652,
+    "files": [
+      {
+        "filename": "lineage-24.0-20260925-UNOFFICIAL-songyuan.zip",
+        "os_patch_level": "2026-09-01",
+        "os_sdk_level": 37,
+        "ota_property_files": "payload_metadata.bin:5369:268759,payload.bin:5369:4275673374,payload_properties.txt:4275678801:156,apex_info.pb:2424:1472,care_map.pb:3943:1379,metadata:69:706,metadata.pb:843:1533                        ",
+        "sha256": "00e23835a9d8ee8cbbd864eccdd4da973ee89d9ebdd6930ac16d4c9353e447a4",
+        "size": 4275681852,
+        "url": "https://downloads.sourceforge.net/project/alles-roms/lineage/songyuan/lineage-24.0-20260925-UNOFFICIAL-songyuan.zip"
+      }
+    ],
+    "type": "unofficial",
+    "version": "24.0"
+  }
+]
