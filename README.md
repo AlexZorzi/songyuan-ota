@@ -6,14 +6,15 @@ Redmi K100 Pro Max (`songyuan`). The built-in Updater app reads
 
     https://raw.githubusercontent.com/AlexZorzi/songyuan-ota/main/songyuan.json
 
-The zips are hosted on SourceForge.
+The zips are hosted on SourceForge:
+https://sourceforge.net/projects/alles-roms/files/songyuan/
 
 ## Publishing a build
 
 1. Build a signed zip (`release-keys`).
 2. Add it to the feed:
 
-       ./make_ota_json.py lineage-24.0-YYYYMMDD-UNOFFICIAL-songyuan.zip --sf-project PROJECT
+       ./make_ota_json.py lineage-24.0-YYYYMMDD-UNOFFICIAL-songyuan.zip
 
 3. Upload the zip to the SourceForge path the script prints, and wait until
    it is downloadable.

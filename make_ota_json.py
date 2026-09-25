@@ -5,7 +5,7 @@
 
 Usage:
   make_ota_json.py lineage-24.0-YYYYMMDD-UNOFFICIAL-songyuan.zip \
-      --sf-project PROJECT [--sf-dir songyuan] [--keep 3]
+      [--sf-project alles-roms] [--sf-dir songyuan] [--keep 3]
 
 The feed format is the one packages/apps/Updater parses (see its README):
 a JSON list, newest first, one entry per build.
@@ -40,7 +40,7 @@ def sha256(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("zip")
-    ap.add_argument("--sf-project", required=True, help="SourceForge project name")
+    ap.add_argument("--sf-project", default="alles-roms", help="SourceForge project name")
     ap.add_argument("--sf-dir", default="songyuan", help="folder inside the project")
     ap.add_argument("--keep", type=int, default=3, help="builds kept in the feed")
     args = ap.parse_args()
