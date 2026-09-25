@@ -7,7 +7,7 @@ Redmi K100 Pro Max (`songyuan`). The built-in Updater app reads
     https://raw.githubusercontent.com/AlexZorzi/songyuan-ota/main/songyuan.json
 
 The zips are hosted on SourceForge:
-https://sourceforge.net/projects/alles-roms/files/songyuan/
+https://sourceforge.net/projects/alles-roms/files/lineage/songyuan/
 
 ## Publishing a build
 
